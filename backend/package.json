@@ -4,13 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
-  "type":"module",
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "code-valhalla": "file:..",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongoose": "^9.7.4"

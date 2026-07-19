@@ -1,0 +1,21 @@
+{
+  "name": "code-valhalla",
+  "version": "1.0.0",
+  "description": "\"# code-valhalla\" \r # code-valhalla",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubham20002/code-valhalla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubham20002/code-valhalla/issues"
+  },
+  "homepage": "https://github.com/Shubham20002/code-valhalla#readme"
+}
