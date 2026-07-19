@@ -4,8 +4,8 @@
   "description": "\"# code-valhalla\" \r # code-valhalla",
   "main": "index.js",
   "scripts": {
-    "build": "bash build.sh",
-    "start": "npm start --prefix backend"
+  "build": "cd backend && npm ci && cd ../frontend && npm ci && npm run build",
+  "start": "npm start --prefix backend"
   },
   "repository": {
     "type": "git",
