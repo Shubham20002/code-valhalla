@@ -11,7 +11,7 @@ app.get("/health",(req,res)=>{
     res.status(400).json({ msg:"api is up and running"})
 })
 //make our app ready for deployment
-if(ENV.ENV==="production"){
+if(ENV.NODE_ENV==="production"){
     app.use(express.static(path.join(__dirname,"../frontend/dist")));
 
     app.get("/{*any}",(req,res)=>res.sendFile(path.join(__dirname,"../frontend/dist/index.html")))
